@@ -18,7 +18,7 @@ const MetricCard = ({ metricDisplayTitle, metricValue }) => (
   </Paper>
 );
 
-const FETCH_DELAY_MS = 1000;
+const FETCH_DELAY_MS = 5000;
 let num = 0;
 
 const CampaignDashboard = ({ name }) => {
